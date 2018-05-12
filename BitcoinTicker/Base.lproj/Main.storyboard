@@ -22,14 +22,14 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <subviews>
                                     <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bitcoin" translatesAutoresizingMaskIntoConstraints="NO" id="6fG-DB-TzA">
-                                        <rect key="frame" x="124" y="35" width="127" height="119"/>
+                                        <rect key="frame" x="124" y="50" width="127" height="119"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="119" id="37Y-Sd-iyE"/>
                                             <constraint firstAttribute="width" constant="127" id="z2m-MO-hGI"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1.000$" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N05-Mm-NAF">
-                                        <rect key="frame" x="0.0" y="166" width="375" height="331"/>
+                                        <rect key="frame" x="0.0" y="181" width="375" height="316"/>
                                         <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
@@ -50,7 +50,7 @@
                                     <constraint firstAttribute="trailing" secondItem="N05-Mm-NAF" secondAttribute="trailing" id="XcG-ex-qe3"/>
                                     <constraint firstAttribute="trailing" secondItem="bRd-Fn-VR5" secondAttribute="trailing" constant="-8" id="cTl-w6-uhm"/>
                                     <constraint firstItem="N05-Mm-NAF" firstAttribute="leading" secondItem="0wl-ou-XZx" secondAttribute="leading" id="dj8-E0-Y6f"/>
-                                    <constraint firstItem="6fG-DB-TzA" firstAttribute="top" secondItem="0wl-ou-XZx" secondAttribute="top" constant="35" id="gLV-dK-LM8"/>
+                                    <constraint firstItem="6fG-DB-TzA" firstAttribute="top" secondItem="0wl-ou-XZx" secondAttribute="top" constant="50" id="gLV-dK-LM8"/>
                                     <constraint firstItem="6fG-DB-TzA" firstAttribute="centerX" secondItem="0wl-ou-XZx" secondAttribute="centerX" id="wr7-2f-mnK"/>
                                 </constraints>
                             </view>
